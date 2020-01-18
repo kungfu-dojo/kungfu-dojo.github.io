@@ -1,0 +1,786 @@
+#loginl {
+    margin: 5px 0 0 25px;
+}
+
+#login {
+    margin: 0 12px;
+    padding: 20px 15px 0 15px;
+    height: 215px;
+}
+
+#l_title {
+    color: #5d86a7;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px #fff;
+}
+
+.l_label {
+    font-weight: 100;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #545454;
+    text-shadow: 1px 1px #fff;
+}
+
+.l_label a {
+    color: #545454;
+}
+
+.l_tb {
+    background: url(i/tb.png) no-repeat top left;
+    height: 26px;
+    width: 226px;
+}
+
+.l_tb input {
+    border: 0;
+    width: 223px;
+    height: 24px;
+    margin: 1px 0 0 2px;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.remember {
+    float: left;
+    margin-top: 5px;
+    font-size: 16px;
+    color: #545454;
+}
+
+.b_login {
+    float: right;
+    width: 90px;
+    height: 30px;
+    font-size: 14px;
+    text-align: right;
+}
+
+.b_login a {
+    display: block;
+    width: 90px;
+    height: 30px;
+    line-height: 29px;
+    text-align: center;
+    color: White;
+    text-decoration: none;
+    text-shadow: -1px 1px 2px #000;
+    background: url('i/login_b.gif') no-repeat 0 0 transparent;
+}
+
+.b_login a:hover {
+    text-shadow: 1px -1px -2px #000;
+}
+
+#login .row {
+    margin-top: 10px;
+}
+
+.loginbutt {
+    height: 30px;
+}
+
+.registr {
+    margin: 20px 0 0 28px;
+}
+
+
+.registr a {
+    display: block;
+    width: 275px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: Black;
+    text-decoration: none;
+    text-shadow: -1px 1px 2px #fff;
+    background: url('i/reg_butt.png') no-repeat center -5px;
+}
+
+.registr a:hover {
+    text-shadow: 1px 1px 1px #fff;
+    background: url('i/reg_butt.png') no-repeat center -64px;
+}
+
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+#menu {
+    position: relative;
+    height: 91px;
+}
+
+#menu * {
+    list-style: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#menu a {
+    display: block;
+    padding-left: 10px;
+}
+
+#menu a span {
+    display: block;
+    padding: 30px 10px 30px 2px;
+    white-space: nowrap;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li li {
+    float: none;
+}
+
+#menu div {
+    display: none;
+    position: absolute;
+    margin-top: -35px;
+    width: 200px;
+}
+
+#menu div ul {
+    position: relative;
+}
+
+#menu div div {
+    margin: -50px 0 0 -9px;
+    left: 100%;
+}
+
+#menu li:hover > div {
+    display: block;
+}
+
+/** ie7 */
+*:first-child + html #menu div div {
+    display: block;
+    top: -9999px;
+}
+
+*:first-child + html #menu li:hover > div {
+    top: auto;
+}
+
+#menu div.columns {
+    width: 200px;
+}
+
+#menu div.columns ul {
+    float: left;
+    width: 200px;
+    position: static;
+}
+
+#menu div.columns a {
+    white-space: normal;
+}
+
+#menu a, #menu a span {
+    font-family: 'Trebuchet MS', Tahoma, Arial, serif;
+    font-size: 19px;
+    color: rgb(103, 83, 2);
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#menu a {
+    text-shadow: rgb(255, 227, 114) 1px 1px 0;
+}
+
+#menu div a {
+    margin-left: 4px;
+    padding: 4px 0 0 0;
+    width: 190px;
+    text-shadow: #111 -1px -1px 0;
+}
+
+.blog_frame {
+    width: 760px;
+    border: none;
+    height: 600px;
+}
+
+/* DEFAULTS
+----------------------------------------------------------*/
+
+.helplink_item {
+    display: none;
+}
+
+body {
+    background: #fff;
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #696969;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+}
+
+a:link, a:visited {
+    color: #034af3;
+}
+
+a:hover {
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active {
+    color: #034af3;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.3em;
+    font-size: 1.3em;
+}
+
+img {
+    border: none;
+}
+
+/* PAGER 
+------------------------------------------------------*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    clear: both;
+}
+
+ul.red {
+    outline: 10px solid red;
+}
+
+li.currentPage {
+    background: red;
+}
+
+ul.simplePagerNav li.currentPage a {
+    color: #fff;
+}
+
+table.pageme {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+table.pageme td {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+ul.paging li.sticky {
+    background-color: red !important;
+    display: block !important;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1.5em;
+    color: #666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 1.6em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5, h6 {
+    font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2 {
+    margin-top: 0;
+}
+
+.title h1.h1MainTitle {
+    position: absolute;
+    top: -120px;
+    line-height: 1.1em;
+    letter-spacing: 5px;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    font-size: 3em;
+    font-weight: 900;
+    color: red !important;
+    text-align: center;
+    width: 960px;
+}
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+.pageHeader {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 120px;
+    width: 100%;
+    background-image: url(i/tbg.jpg);
+    background-repeat: repeat-x;
+    background-position: 200px top;
+}
+
+.page {
+    width: 960px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+.header h1 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0 0 0 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.main {
+    padding: 0 12px;
+    margin: 12px 8px 8px 8px;
+    min-height: 420px;
+}
+
+.leftCol {
+    padding: 6px 0;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.footer {
+    color: #4e5766;
+    padding: 0;
+    margin: -10px auto;
+    text-align: center;
+    line-height: normal;
+}
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+#menu {
+    margin: -60px -30px 20px;
+    z-index: 100;
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p {
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label {
+    display: block;
+}
+
+fieldset label.inline {
+    display: inline;
+}
+
+legend {
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry {
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry {
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo {
+    width: 42%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear {
+    clear: both;
+}
+
+.loginDisplay {
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color: #000;
+}
+
+.loginDisplay a:link {
+    color: #000;
+}
+
+.loginDisplay a:visited {
+    color: #000;
+}
+
+.loginDisplay a:hover {
+    color: #000;
+}
+
+.failureNotification {
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.submitButton {
+    text-align: right;
+    padding-right: 10px;
+}
+
+/* BORDER */
+
+#tBorder {
+    position: relative;
+    float: left;
+}
+
+.bordert {
+    background-image: url(i/border_t.jpg);
+    background-repeat: repeat-x;
+    background-position: left top;
+}
+
+.borderleft {
+    background-image: url(i/border_l.jpg);
+    background-repeat: repeat-y;
+    background-position: left top;
+}
+
+.borderright {
+    background-image: url(i/border_r.jpg);
+    background-repeat: repeat-y;
+    background-position: right top;
+}
+
+.bordertl {
+    background-image: url(i/border_lt.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.borderb {
+    background-image: url(i/border_b.jpg);
+    background-repeat: repeat-x;
+}
+
+.main {
+    background-image: url(i/border_bg.jpg);
+    background-color: white;
+    background-repeat: repeat-x;
+    background-position: left top;
+    vertical-align: top;
+}
+
+/* CONTENT */
+
+#content {
+    position: relative;
+    top: -20px;
+}
+
+#content .h1Title {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20pt;
+    font-weight: 900;
+    color: red;
+}
+
+.h1Title.filesTitle {
+    display: block;
+}
+
+#content #divKungfu, #divTaichi {
+    position: relative;
+    float: left;
+    padding: 0 10px;
+    width: 330px;
+}
+
+#content #divTaichi {
+    width: 380px;
+    padding: 0 0 0 10px;
+}
+
+#content #divChigun, #divPrograms, #divTea, #divFounder, #divInfo, #divMeditation {
+    position: relative;
+    width: 750px;
+    clear: both;
+    text-align: center;
+    padding: 0 5px;
+}
+
+.canBeOpen:link {
+    color: red;
+    text-decoration: none;
+}
+
+.canBeOpen:visited {
+    color: red;
+}
+
+.canBeOpen:active {
+    color: red;
+}
+
+.canBeOpen:hover {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#content #divFotogalleryText {
+    position: relative;
+    width: 750px;
+    clear: both;
+    display: block;
+    height: 50px;
+}
+
+#divFotogalleryText #ViewFotoBtn {
+    display: inline;
+}
+
+.fotogalleryHolder {
+    position: relative;
+    text-align: center;
+}
+
+.fotogalleryHolder .h1Title, .fotogalleryHolder .pWarningMsg {
+    display: inline;
+}
+
+#divFilesTitle {
+    position: relative;
+    width: 750px;
+    clear: both;
+}
+
+#divFilesTitle p.pWarningMsg, #lblErrorMsg, .expValidation {
+    font-weight: 900;
+    color: red;
+    display: inline;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+}
+
+#divLeftColumn, #divCenterColumn, #divRightColumn {
+    position: relative;
+    width: 200px;
+    float: left;
+}
+
+#divCenterColumn {
+    width: 340px;
+    margin: 0 5px;
+}
+
+#divCenterColumn a {
+    text-decoration: none;
+}
+
+#content .mainPageFoto {
+    width: 200px;
+}
+
+.importantText {
+    color: Red;
+    font-weight: 900;
+}
+
+.h1MainTitle a {
+    color: red;
+    text-decoration: none;
+}
+
+.confirmMessage {
+    font-size: 16px;
+}
+
+/* BUTTONS */
+#divFolowButtons {
+    position: absolute;
+    padding: 0;
+    top: 50px;
+    margin: 0 0 0 950px;
+    width: 50px;
+}
+
+#divShareButtons {
+    position: absolute;
+    top: -20px;
+    padding: 0;
+    width: 200px;
+    height: 50px;
+    margin: 0 0 0 800px;
+}
+
+#divShareButtons a {
+    margin: 2px 0;
+}
+
+.buttons {
+    display: block !important;
+    margin: 5px;
+}
+
+
+#divFotogalleryImgs {
+    text-align: center;
+}
+
+.GalleryImgs {
+    position: relative;
+    height: 100px;
+}
+
+.margiTopBottom {
+    position: relative;
+    margin: 20px auto !important;
+}
+
+.txtEmail {
+    width: 225px;
+}
+
+.SendEmailBtn {
+    display: inline !important;
+}
+
+.divEmailValidation {
+    text-align: center;
+}
+
+#dialog-confirm {
+    display: none;
+}
+
+/* JQUERY plugins */
+.alert {
+    margin: 5px 0;
+}
+
+.alert .ui-icon-alert {
+    display: none;
+}
+
+.ui-button {
+    white-space: normal !important;
+}
+
+
+/* ARTICLES */
+
+.articleImgs {
+    position: relative;
+    display: block;
+    margin: 5px auto;
+}
+
+
+/* VK */
+
+#VkLikes, #VkShare, #vk_like, #vk_share {
+    position: absolute !important;
+    display: inline !important;
+}
+
+#vk_share {
+    right: 0;
+}
+
+#vk_comments {
+    display: inline-block;
+    margin: 30px 0 0 0 !important;
+}
+
+
+#container {
+    position: relative;
+}
+
+#num1, #num2 {
+    position: absolute;
+    left: 50px;
+}
+
+/* num2 will be on top of num1 */
+#num1 {
+    z-index: 1;
+}
+
+#num2 {
+    z-index: 2;
+}
+
+.container {
+    text-align: center;
+}
