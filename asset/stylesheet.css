@@ -224,23 +224,9 @@ body {
     font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    color: #696969;
     -moz-user-select: none;
     -khtml-user-select: none;
     background: transparent url(i/tbg.jpg) repeat-x 200px top;
-}
-
-a:link, a:visited {
-    color: #034af3;
-}
-
-a:hover {
-    color: #1d60ff;
-    text-decoration: none;
-}
-
-a:active {
-    color: #034af3;
 }
 
 p {
@@ -336,7 +322,7 @@ first child of the left and right table columns */
 
 .title h1.h1MainTitle {
     position: absolute;
-    top: -120px;
+    top: -95px;
     line-height: 1.1em;
     letter-spacing: 5px;
     font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
@@ -353,7 +339,7 @@ first child of the left and right table columns */
     position: relative;
     margin: 0;
     padding: 0;
-    height: 120px;
+    height: 100px;
     width: 100%;
 }
 
@@ -367,7 +353,6 @@ first child of the left and right table columns */
     position: relative;
     margin: 0;
     padding: 0;
-    background: #fff;
 }
 
 .header h1 {
@@ -778,4 +763,22 @@ div.accountInfo {
 
 .container {
     text-align: center;
+}
+
+.contact {
+    padding: 0 22px;
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: center;
+}
+
+.contact__item {
+    text-decoration: none;
+    color: #000;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.contact__text {
+    display: inline-block;
 }
