@@ -220,7 +220,6 @@
 }
 
 body {
-    background: #fff;
     font-size: .80em;
     font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
     margin: 0;
@@ -228,6 +227,7 @@ body {
     color: #696969;
     -moz-user-select: none;
     -khtml-user-select: none;
+    background: transparent url(i/tbg.jpg) repeat-x 200px top;
 }
 
 a:link, a:visited {
@@ -355,14 +355,10 @@ first child of the left and right table columns */
     padding: 0;
     height: 120px;
     width: 100%;
-    background-image: url(i/tbg.jpg);
-    background-repeat: repeat-x;
-    background-position: 200px top;
 }
 
 .page {
     width: 960px;
-    background-color: #fff;
     margin-left: auto;
     margin-right: auto;
 }
@@ -521,19 +517,18 @@ div.accountInfo {
 }
 
 .bordertl {
-    background-image: url(i/border_lt.jpg);
+    background-image: url(i/border_lt.png);
     background-repeat: no-repeat;
     background-position: left top;
 }
 
 .borderb {
-    background-image: url(i/border_b.jpg);
+    background-image: url(i/border_b.png);
     background-repeat: repeat-x;
 }
 
 .main {
-    background-image: url(i/border_bg.jpg);
-    background-color: white;
+    background-image: url(i/border_bg.png);
     background-repeat: repeat-x;
     background-position: left top;
     vertical-align: top;
