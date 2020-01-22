@@ -187,7 +187,7 @@
     white-space: normal;
 }
 
-#menu a, #menu a span {
+.menu a span {
     font-family: 'Trebuchet MS', Tahoma, Arial, serif;
     font-size: 19px;
     color: rgb(103, 83, 2);
