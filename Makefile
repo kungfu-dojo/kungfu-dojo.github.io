@@ -29,6 +29,8 @@ css:
 	csso --input vendor/fotorama/fotorama.css --source-map none > asset/stylesheet.css
 	csso --input src/legasy/legasy.css --source-map none >> asset/stylesheet.css
 	csso --input src/contact/contact.css --source-map none >> asset/stylesheet.css
+	csso --input src/link/link.css --source-map none >> asset/stylesheet.css
+	csso --input src/list/list.css --source-map none >> asset/stylesheet.css
 	cp vendor/fotorama/fotorama.png asset/fotorama.png
 
 build: js css
