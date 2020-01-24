@@ -16,6 +16,7 @@ vendor/fotorama:
 	curl -s https://cdnjs.cloudflare.com/ajax/libs/fotorama/${FOTORAMA_VERSION}/fotorama.js -o vendor/fotorama/fotorama.js
 	curl -s https://cdnjs.cloudflare.com/ajax/libs/fotorama/${FOTORAMA_VERSION}/fotorama.css -o vendor/fotorama/fotorama.css
 	curl -s https://cdnjs.cloudflare.com/ajax/libs/fotorama/${FOTORAMA_VERSION}/fotorama.png -o vendor/fotorama/fotorama.png
+	curl -s https://cdnjs.cloudflare.com/ajax/libs/fotorama/${FOTORAMA_VERSION}/fotorama@2x.png -o vendor/fotorama/fotorama@2x.png
 
 fetch-vendor: vendor/ga vendor/jquery vendor/fotorama
 
@@ -31,7 +32,7 @@ css:
 	csso --input src/contact/contact.css --source-map none >> asset/stylesheet.css
 	csso --input src/link/link.css --source-map none >> asset/stylesheet.css
 	csso --input src/list/list.css --source-map none >> asset/stylesheet.css
-	cp vendor/fotorama/fotorama.png asset/fotorama.png
+	cp vendor/fotorama/*.png asset/
 
 build: js css
 
