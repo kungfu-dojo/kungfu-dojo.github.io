@@ -1,14 +1,13 @@
 $(document).ready(function () {
   $('[data-action]').click(function () {
     var data = $(this).data('action')
-    gtag('event', 'action', {
+    gtag('event', data.value, {
       'event_category': data.category,
       'event_label': data.label,
-      'value': data.value,
     })
   })
 
-  $('.fotorama').on('fotorama:ready ' +           // Fotorama is fully ready
+  $('.fotorama').on(//'fotorama:ready ' +           // Fotorama is fully ready
     'fotorama:show ' +            // Start of transition to the new frame
     //'fotorama:showend ' +         // End of the show transition
     //'fotorama:load ' +            // Stage image of some frame is loaded
@@ -20,10 +19,9 @@ $(document).ready(function () {
     'fotorama:loadvideo ' +       // Video iframe is loaded
     'fotorama:unloadvideo',       // Video iframe is removed
     function (e, fotorama, extra) {
-      gtag('event', 'action', {
-        'event_category': e.type.split(':')[1],
-        'event_label': 'photo',
-        'value': fotorama.activeFrame.img,
+      gtag('event', fotorama.activeFrame.img, {
+        'event_category': 'fotorama',
+        'event_label': e.type.split(':')[1],
       })
       //console.log('## ' + e.type)
       //console.log('active frame', fotorama.activeFrame)
