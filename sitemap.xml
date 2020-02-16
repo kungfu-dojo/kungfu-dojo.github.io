@@ -1,7 +1,7 @@
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://kungfu.com.ua/</loc>
-        <lastmod>2020-02-02</lastmod>
+        <lastmod>2020-02-16</lastmod>
     </url>
     <url>
         <loc>https://kungfu.com.ua/practice/</loc>
@@ -45,7 +45,11 @@
     </url>
     <url>
         <loc>https://kungfu.com.ua/article/</loc>
-        <lastmod>2020-02-02</lastmod>
+        <lastmod>2020-02-16</lastmod>
+    </url>
+    <url>
+        <loc>https://kungfu.com.ua/article/200216/</loc>
+        <lastmod>2020-02-16</lastmod>
     </url>
     <url>
         <loc>https://kungfu.com.ua/article/the_link_between_Chinese_culture_and_traditional_martial_arts_schools.html</loc>
