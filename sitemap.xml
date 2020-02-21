@@ -1,7 +1,7 @@
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://kungfu.com.ua/</loc>
-        <lastmod>2020-02-16</lastmod>
+        <lastmod>2020-02-21</lastmod>
     </url>
     <url>
         <loc>https://kungfu.com.ua/practice/</loc>
@@ -25,7 +25,11 @@
     </url>
     <url>
         <loc>https://kungfu.com.ua/practice/chinese_tea_ceremony/</loc>
-        <lastmod>2020-02-02</lastmod>
+        <lastmod>2020-02-21</lastmod>
+    </url>
+    <url>
+        <loc>https://kungfu.com.ua/practice/chinese_tea_ceremony/200222/</loc>
+        <lastmod>2020-02-21</lastmod>
     </url>
     <url>
         <loc>https://kungfu.com.ua/practice/chinese_tea_ceremony/191213/</loc>
