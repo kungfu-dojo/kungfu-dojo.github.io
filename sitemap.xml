@@ -1,7 +1,7 @@
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://kungfu.com.ua/</loc>
-        <lastmod>2020-05-30</lastmod>
+        <lastmod>2021-06-14</lastmod>
     </url>
     <url>
         <loc>https://kungfu.com.ua/practice/</loc>
@@ -49,7 +49,7 @@
     </url>
     <url>
         <loc>https://kungfu.com.ua/article/</loc>
-        <lastmod>2020-05-30</lastmod>
+        <lastmod>2021-06-14</lastmod>
     </url>
     <url>
         <loc>https://kungfu.com.ua/article/200216/</loc>
@@ -74,5 +74,13 @@
     <url>
         <loc>https://kungfu.com.ua/article/200530/</loc>
         <lastmod>2020-05-30</lastmod>
+    </url>
+    <url>
+        <loc>https://kungfu.com.ua/article/chinese_martial_arts_in_the_modern_world_part_5/</loc>
+        <lastmod>2021-06-14</lastmod>
+    </url>
+    <url>
+        <loc>https://kungfu.com.ua/article/chinese_martial_arts_in_the_modern_world_part_6/</loc>
+        <lastmod>2021-06-14</lastmod>
     </url>
 </urlset>
